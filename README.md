@@ -9,8 +9,9 @@
 
 1. Clone este repositório para o seu ambiente local.
 2. Instale as dependências do projeto executando `npm install`.
-3. Inicie o servidor de desenvolvimento local com `npm start`.
-4. Acesse a aplicação no seu navegador através de `http://localhost:3000`.
+3. Copie os arquivos deste repositório para a sua nova pasta.
+4. Inicie o servidor de desenvolvimento local com `npm start`.
+5. Acesse a aplicação no seu navegador através de `http://localhost:3000`.
 
 ## Autor
 
