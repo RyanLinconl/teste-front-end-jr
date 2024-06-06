@@ -3,7 +3,7 @@
 ## Tecnologias Utilizadas
 
 - **React**: Biblioteca JavaScript para construção de interfaces de usuário.
-- **SASS*: Linguagens para estruturação e estilização da aplicação.
+- **SASS**: Linguagens para estruturação e estilização da aplicação.
 
 ## Como Utilizar
 
