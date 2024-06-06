@@ -1,0 +1,118 @@
+@import '../styles/variables.scss';
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+
+    .footer-section {
+      flex: 1;
+      margin: 0 10px;
+      text-align: left;
+
+      h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin-bottom: 5px;
+          font-size: 12px;
+          font-weight: 200;
+        }
+      }
+
+      .social-icons {
+        margin-top: 10px;
+
+
+        img {
+          gap: 15px;
+          font-size: 24px;
+          margin-right: 10px;
+        }
+      }
+
+      .payment-icons {
+        display: flex;
+        flex-wrap: wrap;
+
+        i {
+          font-size: 24px;
+          margin-right: 10px;
+          margin-bottom: 10px;
+        }
+      }
+
+      &.newsletter {
+        background-color: $primary-color;
+        justify-content: center;
+        border-radius: 20px;
+        width: 380px;
+        margin-bottom: 5rem;
+
+        h3 {
+          color: $detail-color;
+          width: 80%;
+        }
+
+        p {
+          color: $detail-color;
+          font-size: 12px;
+
+        }
+
+        form {
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+          margin-bottom: 2rem;
+
+          input {
+            padding: 10px;
+            border: solid 1px black;
+            border-radius: 5px;
+            width: 230px;
+          }
+
+          button {
+            padding: 10px 20px;
+            border: none;
+            background-color: $secondary-color;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    background-color: #222;
+    padding: 13px 80px;
+    text-align: left;
+    font-size: 14px;
+
+    p {
+      width: 50%;
+      font-size: 10px;
+      font-weight: 300;
+    }
+
+    .footer-logos {
+      margin-top: 10px;
+    }
+  }
+}
